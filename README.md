@@ -1,7 +1,7 @@
 # Overview:
 This application is an attack calculator and stat management tool created for use with the Pokemon Tabletop United TTRPG. 
 # Copyright/Licensing
-All rights to this app belong solely to it's creator, Alex Porter.  
+All rights to this application belong solely to it's creator, Alex Porter.  
 Pokemon icon(s) used were created by Nikita Golubev and retrieved from https://www.flaticon.com/free-icons/pokemon.
 # Download:
 1. Download the application as a zipped folder by selecting Code -> Download Zip
@@ -14,10 +14,12 @@ This app uses Git for automatic updates. Every time the app is launched, it will
 # Usage:
 <img width="1131" height="737" alt="image" src="https://github.com/user-attachments/assets/78ffca48-464e-4154-b181-a9d193460b25" />    
 
-- Both sides (attacking and defending) have six loadout slots, with the currently selected slot being a darker red. The information entered into the textboxes will be saved when switching to a different loadout or when closing the app, as long as the entered values can be parsed as integers (whole, non-decimal numbers).
-- You will be prompted if you want to continue the current opperation if the entered values cannot be parsed. This can be disabled in the config file (AppData/Config.txt), but be aware that disabling it may result in accidental data loss. Certian actions, such as calculating attack damage, will require parsable data even with the setting disabled.
+- Both sides (attacking and defending) have six loadout slots, with the currently selected slot being a darker red. The information entered into the textboxes will be saved when switching to a different loadout or when closing the app. While partial data will be saved (such as empty values), calculating attack damage requires parsable data.
 - When calculating an attack, enter the attack damage base and Attack effectiveness, and then designate whether it is a special attack, benefits from STAB (Same Type Attack Bonus), or is a critical hit.
 - Click the Roll button to roll the dice and then calculate the resulting damage. Once the damage has been calculated, you can click the Apply Attack Damage button to subtract the damage from the defending Pokemon's HP.
+# ChangeLog:
+Beta 0.1-0.4: Fixed issues with the config file and automatic update system.  
+Beta 0.5: Partial Pokemon data will now be saved, with parsable data only required when calculating attack damage.
 # Feedback and Suggestions:
 Feedback and suggestions should be sent to asporter09@gmail.com.  
-All bug reports must include a detailed description of what action(s) you performed, what the result was, and the result you expected in order to be addressed. Please also imclude any relevant error messages or screenshots.
+All bug reports must include a detailed description of what action(s) you performed, what the result was, and the result you expected in order to be addressed. Please also include any relevant error messages or screenshots.
